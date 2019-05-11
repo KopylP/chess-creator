@@ -1,0 +1,150 @@
+body {
+    width: 100%;
+    font-family: 'Raleway', sans-serif;
+    height: 100%
+}
+
+#main {
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 10px;
+}
+.card-large {
+  width: 350px;
+  text-align: center;
+  padding: 10px;
+
+}
+.card-right {
+  width: 350px;
+  margin-left: 5px;
+  background-color: white;
+  margin-top: 8px;
+  padding: 5px;
+  border-radius: 3px;
+}
+.card-two {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+#chess-field {
+    margin: auto;
+}
+
+/* body {
+}*/
+h1 {
+    color: black;
+}
+#back {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+    filter: blur(1px); 
+    background-image: url("../images/back.jpg");
+    background-size: cover; 
+    filter: grayscale(50%);
+    transition: 0.3s -webkit-filter linear;
+}
+
+.sol-inf {
+  margin-bottom: 5px; 
+}
+.sol-inf h5 {
+  margin: 0;
+}
+
+.center {
+  margin: auto;
+  width: 350px;
+}
+
+.alert {
+  color: red;
+}
+
+.input-field label {
+    color: rgb(38, 156, 154);
+  }
+  /* label focus color */
+  .input-field input[type=text]:focus + label {
+    color: #000;
+  }
+  /* label underline focus color */
+  .input-field input[type=text]:focus {
+    border-bottom: 1px solid #000;
+    box-shadow: 0 1px 0 0 #000;
+  }
+  /* valid color */
+  .input-field input[type=text].valid {
+    border-bottom: 1px solid #000;
+    box-shadow: 0 1px 0 0 #000;
+  }
+  /* invalid color */
+  .input-field input[type=text].invalid {
+    border-bottom: 1px solid #000;
+    box-shadow: 0 1px 0 0 #000;
+  }
+  /* icon prefix focus color */
+  .input-field .prefix.active {
+    color: #000;
+  } 
+  .chess-card {
+    max-width: 320px;
+    margin-left: 20px;
+
+  }
+  .card-title {
+    background-color: rgba(255, 255, 255, 0.9);
+    color:black!important;
+    font-weight: 500!important;
+    padding: 5px!important;
+  }
+  #dashboards {
+    margin-top: -25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    /* background-color: rgba(255, 255, 255, 0.9); */
+  }
+  #dashboards h1 {
+    width: 100%;
+    text-align: center;
+  }
+  .brand-logo {
+    margin-left: 10px; 
+    
+  }
+  .brand-logo i {
+    font-size: 1.0em!important;
+    line-height: 64px!important;
+  }
+  .preload {
+    position: fixed;
+    left: calc(50% - 90px);
+    top: calc(50vh - 90px);
+    z-index: 999;
+  }
+  .prerect {
+    
+    position: fixed;
+    width: 100%;
+    top: 0;
+    height: 100vh;
+    background-color: white;
+    z-index: 998;
+  }
+  .liked {
+    color: red;
+  }
+  #likes {
+    cursor: pointer;
+  }
+ 
